@@ -4,11 +4,11 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     druid:
       first:  #数据源1
-        url: jdbc:mysql://localhost:3306/cheng?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+        url: jdbc:mysql://47.94.162.137:3306/cheng?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
         username: cheng
         password: cheng
       second:  #数据源2
-        url: jdbc:mysql://localhost:3306/cheng?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+        url: jdbc:mysql://47.94.162.137:3306/cheng?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
         username: cheng
         password: cheng
       initial-size: 10
